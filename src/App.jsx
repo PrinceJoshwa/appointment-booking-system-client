@@ -1,6 +1,6 @@
 import Header from "./components/Header"
 import AppointmentForm from "./components/AppointmentForm"
-import AppointmentList from "./components/AppointmentList"
+// import AppointmentList from "./components/AppointmentList"
 
 function App() {
   return (

@@ -19,7 +19,8 @@ function AppointmentForm() {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      await axios.post("http://localhost:5000/api/appointments", formData)
+    //   await axios.post("http://localhost:5000/api/appointments", formData)
+      await axios.post("https://appointment-booking-system-server.vercel.app/api/appointments", formData)
       alert("Appointment booked successfully!")
       setFormData({ name: "", email: "", date: "", time: "", service: "" })
     } catch (error) {
